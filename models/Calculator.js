@@ -3,6 +3,7 @@ function Calculator(leftOperand, operator, rightOperand) {
 	this.operator = operator;
 	this.rightOperand = rightOperand;
 	
+	
 	this.calculateResult = function () {
 		let result = 0;
 		
